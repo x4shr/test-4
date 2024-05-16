@@ -195,20 +195,72 @@ rel="stylesheet"
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-      <a class="navbar-brand" href="#">18.5</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="https://www.instagram.com/want.abagel?igsh=MXZxZ3kybjI2czA4dw==">奶油泡胡<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="https://myship.7-11.com.tw/general/detail/GM2208108494336">買貝果</a>
-          <a class="nav-item nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdkJGX5NMmQt1r9GDMBZ_v-xK8ftVegjODqORWvIQunQsdoPQ/viewform?usp=send_form">似顏繪</a>
-          <a class="nav-item nav-link disabled" href="https://drive.google.com/drive/folders/1dXEvjXutdT5y5F2R8utJf9Mcp00y3Ao2" tabindex="-1" aria-disabled="true">熱量</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          data-mdb-collapse-init
+          class="navbar-toggler"
+          type="button"
+          data-mdb-target="#navbarCenteredExample"
+          aria-controls="navbarCenteredExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+    
+        <!-- Collapsible wrapper -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarCenteredExample"
+        >
+          <!-- Left links -->
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">18.5</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://myship.7-11.com.tw/general/detail/GM2208108494336">買貝果</a>
+            </li>
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                data-mdb-dropdown-init
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                aria-expanded="false"
+              >
+                奶油泡胡
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="https://www.instagram.com/want.abagel?igsh=MXZxZ3kybjI2czA4dw==">食譜分享</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdkJGX5NMmQt1r9GDMBZ_v-xK8ftVegjODqORWvIQunQsdoPQ/viewform?usp=send_form">似顏繪</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://drive.google.com/drive/folders/1dXEvjXutdT5y5F2R8utJf9Mcp00y3Ao2">熱量表</a>
+            </li>
+          </ul>
+          <!-- Left links -->
         </div>
+        <!-- Collapsible wrapper -->
       </div>
+      <!-- Container wrapper -->
     </nav>
+    
 <main>
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
     <div class="col-md-6 p-lg-5 mx-auto my-5">
